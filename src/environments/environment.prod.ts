@@ -24,6 +24,6 @@
 
 export const environment = {
   production: true,
-  apiURL: 'http://localhost:8090',
+  apiURL: 'https://' + window.location.hostname + '/sawtooth-explorer-sawtooth',
   apiTimeout: 3000
 }
